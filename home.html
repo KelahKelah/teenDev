@@ -21,12 +21,17 @@
     <header class="home-header">
         <nav>
             <ul class="home-ul">
-                <li class="home-li">Works</li>
-                <li class="home-li">Blog</li>
-                <li class="home-li">Contact</li>
+                <li class="active">Works</li>
+                <li>Blog</li>
+                <li>Contact</li>
             </ul>
         </nav>
     </header>
+
+    <div class="hamburger-wrapper">
+        <span class="hamburger" >☰</span>
+    </div>
+
 
     <!-- <main class="home-main"> -->
 
@@ -34,7 +39,7 @@
             <div>
                 <h1 class="banner-head" >Hi, I am John, Creative Technologist</h1>
                 <p class="banner-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button>Download Resume</button>
+                <button id="banner-button">Download Resume</button>
             </div>
             <div>
                 <img class="prof-img" src="./assets/profileImg.png" alt="profile" />
@@ -52,7 +57,8 @@
                         <h3>Making a design system from scratch</h3>
                     </div>
                     <div class="sect-two-date">
-                        <p>12 Feb 2020 | </p> 
+                        <p>12 Feb 2020</p> 
+                        <p> | </p> 
                         <p>Design, Pattern</p>
                     </div>
                     <div>
@@ -64,7 +70,8 @@
                         <h3>Creating pixel perfect icons in Figma</h3>
                     </div>
                     <div class="sect-two-date">
-                        <p>12 Feb 2020 |</p> 
+                        <p>12 Feb 2020 </p>
+                        <p> |</p> 
                         <p>Figma, Icon Design</p>
                     </div>
                     <div>
@@ -78,7 +85,7 @@
             <p>Featured works</p>
             <div>
                 <div>
-                    <img src="./assets/one.png" alt="dashboard" />
+                    <img class="sect-three-img" src="./assets/one.png" alt="dashboard" />
                 </div>
                 <div>
                     <h5>Designing Dashboards</h5>
@@ -112,16 +119,16 @@
 
 
     <footer class="footer">
-        <div>
-            <img class="footer-icons" src="./assets/fb.png" alt="facebook-icon" />
-            <img class="footer-icons" src="./assets/insta.png" alt="instagram-icon" />
-            <img class="footer-icons" src="./assets/twitter.png" alt="twitter-icon" />
-            <img class="footer-icons" src="./assets/Linkedin.png" alt="linkedin-icon" />
-        </div>
+        <ul>
+            <a href="https://web.facebook.com" target="_blank" ><img class="footer-icons" src="./assets/fb.png" alt="facebook-icon" /> </a>       
+            <a href="https://www.instagram.com/" target="_blank" ><img class="footer-icons" src="./assets/insta.png" alt="instagram-icon" /> </a>           
+            <a href="https://twitter.com" target="_blank" ><img class="footer-icons" src="./assets/twitter.png" alt="twitter-icon" /> </a>           
+            <a href="https://www.linkedin.com" target="_blank" ><img class="footer-icons" src="./assets/Linkedin.png" alt="linkedin-icon" /> </a>
+        </ul>
 
         <p>Copyright c2020 All rights reserved </p>
     </footer>
-
+    <script src="./app.js" />
     <noscript>You need to enable JavaScript to run this app.</noscript>
    
   </body>
