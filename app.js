@@ -1,8 +1,6 @@
 const handleNextPage = () => {
-    history.pushState(null, "" , "./download.html")
-    location.reload()
-    return false
-}
-const buttonElement = document.getElementById("banner-button")
-console.log(buttonElement)
-buttonElement.addEventListener("click", handleNextPage)
+    window.location.href = '/download.html';
+};
+
+const buttonElement = document.getElementById("banner-button");
+buttonElement.addEventListener("click", handleNextPage);
